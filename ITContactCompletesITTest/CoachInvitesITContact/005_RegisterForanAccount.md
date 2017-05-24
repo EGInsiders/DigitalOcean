@@ -1,5 +1,5 @@
 ### Register for an account
-	Given that I am on the registration form for team coaches
+	Given that I am on the registration form for IT Contacts
 	When I enter my first name
 	And Last Name
 	And Job Title
