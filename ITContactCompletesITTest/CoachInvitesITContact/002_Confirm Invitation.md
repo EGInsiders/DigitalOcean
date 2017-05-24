@@ -3,5 +3,5 @@
 	When I enter a custom message
 	And click "Send Invite"
 		Then the modal clears
-		And the system responds, "Your coach invitations have been processed and necessary emails sent out."
+		And the system responds, "Your invitations have been processed and necessary emails sent out."
 		###
