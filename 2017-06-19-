@@ -1,0 +1,34 @@
+---
+title: # Following and unfollowing groups
+layout: post
+author: eduguidepfl
+permalink: /#-following-and-unfollowing-groups/
+source-id: 1b2E1tCSBfnEl8UdO379QUYU8qyjbclBl0DwosgrfDRY
+published: true
+---
+# Following and unfollowing groups
+
+## Following Groups
+
+Given that I am on the Edit Group page
+
+When I click on "Follow"
+
+Then the system responds "You were added as a follower of Avery."
+
+And the group is listed under "My Groups" on the group management page
+
+#/##
+
+## Unfollowing Groups
+
+Given that I am on the group edit page
+
+When I click on "Unfollow"
+
+Then the system responds, "You were removed as a follower of Avery."
+
+And the group is removed from the "My Groups" section on the group management page
+
+#/##
+
