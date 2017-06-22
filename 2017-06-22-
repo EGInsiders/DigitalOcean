@@ -1,0 +1,62 @@
+---
+title: # Create a Poll Step
+layout: post
+author: eduguidepfl
+permalink: /#-create-a-poll-step/
+source-id: 12bRDU6snwA--eo6s4h3fZWysveEcP-rFKTJwCHhCTn0
+published: true
+---
+# Create a Poll Step
+
+## Initiate a new Poll Step
+
+Given that you are on the dashboard for an activity
+
+When I click on "Add Step"
+
+Then I am taken to the form for a new Step
+
+#/##
+
+## Select Poll Step Type - Multiple Radio Choice
+
+Given that I am on the new Step form
+
+When I click on the dropdown menu under "Step Type"
+
+And select "Multiple Choice Radio"
+
+Then the section "Question Choices" appears
+
+And "Add Choice" Appears
+
+#/##
+
+![image alt text]({{ site.url }}/public/dl0zQETvE4TpKBLPxChJw_img_0.png)
+
+## Configure Poll question
+
+Given that I've selected the Multiple Radio Choice
+
+And I've entered text into the "Content" field
+
+When I click on "Add Choice"
+
+Then a new field appears
+
+#/##
+
+## Entering Question Choices
+
+When I enter a choice
+
+And click "Save"
+
+Then my step is changed
+
+And I am returned to the activity's dashboard
+
+#/##
+
+![image alt text]({{ site.url }}/public/dl0zQETvE4TpKBLPxChJw_img_1.png)
+
