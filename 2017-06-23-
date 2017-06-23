@@ -1,0 +1,128 @@
+---
+title: # New Coach invites students to the team
+layout: post
+author: eduguidepfl
+permalink: /#-new-coach-invites-students-to-the-team/
+source-id: 1DFvJMsCnTFUaa-IkbmY0aWvp_ldVU96KxJoLaTLWbTA
+published: true
+---
+# New Coach invites students to the team
+
+## Send invitation to Recruit Coach as {Support Coach}
+
+Given that I am logged in as a coach
+
+When I click on the command menu
+
+And "coaches"
+
+Then I am taken to the Invite Coaches page
+
+#/##
+
+## Send Coach invitation
+
+Given that I am on the Coaches invite page
+
+When I enter in an email address [{32bpwr3+coach06232017@gmail.com](mailto:%7B32bpwr3+coach06232017@gmail.com))
+
+And click "Support"
+
+And click "Send Invite"
+
+Then the Send Invitation Modal appears
+
+#/##
+
+## Customize message and confirm send
+
+When I enter a custom message {Please Join my team}
+
+Then the Personalize invitation modal appears
+
+### Send Invitation
+
+When I click "Send Invite"
+
+Then the modal disappears
+
+And  the system responds, "Your coach invitations have been processed and necessary emails sent out."
+
+And I'm taken back to the Manage Team Coaches page
+
+#/##
+
+## Accept Support Coach Invitation
+
+### Respond to invitation in inbox
+
+When I click on "Join <Team Name> Now"
+
+Then I am taken to the site
+
+#/##
+
+## Register for an account
+
+### Decision Tree
+
+When I click "No, Join"
+
+Then I am taken to the registration form
+
+#/##
+
+### Registration Form
+
+When I enter a first name
+
+And a last name
+
+And a job title
+
+And a mobile phone
+
+And a join code
+
+And an email address
+
+And confirm email address
+
+And password
+
+And confirm password
+
+And click "Join"
+
+Then my account is created
+
+And I am promoted to support coach
+
+And I am subscribed to the personal path
+
+And I am added to the team
+
+And I am taken into my path
+
+#/##
+
+### Upload custom avatar
+
+When I click on "Find New Image"
+
+Then a file chooser opens up
+
+And I can select an image
+
+And my selected image is shown as a preview in the space for my avatar
+
+#/##
+
+## Advancing to next screen
+
+When I click on the right hand arrow
+
+Then I am taken to my path
+
+#/##
+
